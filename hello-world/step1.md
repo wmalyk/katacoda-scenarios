@@ -2,6 +2,6 @@ This is your first step.
 
 ## Task
 
-This is an _example_ of creating a scenario and running a **command**
+First run the **wget** to fetch an initial package for deploy
 
-`echo 'Hello World'`{{execute}}
+`wget http://enterpriseweb.com/minimal.zip`{{execute}}
