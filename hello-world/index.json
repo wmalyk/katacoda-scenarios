@@ -1,6 +1,6 @@
 {
   "title": "Bootstrap EnterpriseWeb",
-  "description": "Create a first EnterpriseWeb container and first application",
+  "description": "Install EnterpriseWeb on Linux and create your first application",
   "difficulty": "beginner",
   "time": "30 minutes",
   "details": {
@@ -18,7 +18,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mBash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mBash Terminal.\r\nNote: all work is being done in an temporary container which will be removed when the scenario completes.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "bash"
