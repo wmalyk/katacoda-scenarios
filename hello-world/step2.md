@@ -1,10 +1,4 @@
-Starting Enviornment
-
-`download sources` 
-
-http://99.252.147.90:8075/UseCase.pdf
-
-http://99.252.147.90:8075/EWebScenario-AppManagerIntro-Resources.zip
+Application Manager Scenario
 
 ## Install Dependencies
 
@@ -25,4 +19,4 @@ We will use the Casandra DB for this example
 
 Next we will run the **wget** to fetch an initial package for deploy
 
-`wget http://enterpriseweb.com/minimal.zip`{{execute}}
+`wget http://enterpriseweb.com/minimal.zip`{{execute}} 

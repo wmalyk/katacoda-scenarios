@@ -1,5 +1,5 @@
 {
-  "title": "Bootstrap EnterpriseWeb",
+  "title": "EnterpriseWeb - Introduction to the Application Manager",
   "description": "Install EnterpriseWeb on Linux and create your first application",
   "difficulty": "beginner",
   "time": "30 minutes",
@@ -7,6 +7,10 @@
     "steps": [{
       "title": "Step 1 - Install EnterpriseWeb via Linux CLI",
       "text": "step1.md"
+    },
+    {
+      "title": "Step 2 - Scenario",
+      "text": "step2.md"
     }],
     "intro": {
       "text": "intro.md",
