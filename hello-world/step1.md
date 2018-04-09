@@ -6,6 +6,8 @@ http://99.252.147.90:8075/UseCase.pdf
 
 http://99.252.147.90:8075/EWebScenario-AppManagerIntro-Resources.zip
 
+try here: http://99.252.147.90:8075-8075-[[KATACODA_HOST]].environments.katacoda.com/
+
 ## Install Dependencies
 
 First use **yum** to install dependencies
