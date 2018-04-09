@@ -22,7 +22,7 @@
   },
   "environment": {
         "showdashboard": true,
-        "dashboards": [{ "name": "Application Manager", "port": 8080, "host": "host02" }, { "name": "Service Manager", "port": 8080, "host": "host01" , { "name": "PLS Manager", "port": 8080, "host": "client" }],
+        "dashboards": [{ "name": "Application Manager", "port": 8080, "host": "host02" }, { "name": "Service Manager", "port": 8080, "host": "host01"}, { "name": "PLS Manager", "port": 8080, "host": "client" }],
         "uilayout": "terminal-iframe",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
   },
