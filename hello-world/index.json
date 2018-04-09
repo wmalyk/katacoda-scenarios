@@ -23,7 +23,7 @@
   "environment": {
     "uilayout": "terminal-iframe",
     "uimessage1": "\u001b[32mBash Terminal.\r\nNote: all work is being done in an temporary container which will be removed when the scenario completes.\u001b[m\r\n",
-    "uimessage2": "\uNot sure 001b[32mBash Terminal.\r\nNote: all work is being done in an temporary container which will be removed when the scenario completes.\u001b[m\r\n"
+    "uimessage2": "Not sure \u001b[32mBash Terminal.\r\nNote: all work is being done in an temporary container which will be removed when the scenario completes.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "bash",
