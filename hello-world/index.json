@@ -26,7 +26,7 @@
     "uimessage2": "Not sure \u001b[32mBash Terminal.\r\nNote: all work is being done in an temporary container which will be removed when the scenario completes.\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "bash",
+    "imageid": "docker",
     "port": 8076
   }
 }
