@@ -6,7 +6,7 @@ http://99.252.147.90:8075/UseCase.pdf
 
 http://99.252.147.90:8075/EWebScenario-AppManagerIntro-Resources.zip
 
-try here: https://[[HOST_SUBDOMAIN]]-8076-[[KATACODA_HOST]].environments.katacoda.com/. YES....
+try here: https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/. YES....
 
 ## Install Dependencies
 
