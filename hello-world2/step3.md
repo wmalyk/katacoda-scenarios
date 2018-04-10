@@ -84,7 +84,7 @@ We want to place an order through the EnterpriseWeb API - we can do this via com
 
  - Copy the following REST command to the terminal, and substitute the Package URL found inside the EnterpriseWeb portal for the variable [[PACKAGE_URL]]
 
-`curl -X POST -d '{ns: {name: "Katacoda Portal",ref: "[[PACKAGE_URL]]",params: [{id: "host_name", value: "malyk.net"}]}}' http://localhost:8078/api/provisioning/order`{{copy}}
+`curl -X POST -d '{ns: {name: "Katacoda Portal",ref: "[[PACKAGE_URL]]",params: [{id: "host_name", value: "malyk.net"}]}}' http://localhost:8078/api/provisioning/provisioning`{{copy}}
 
  - Execute that command to create the portal.
 
@@ -92,7 +92,7 @@ or
 
 - Via a REST client
 
- - Place a POST to: http://99.252.147.90:8078/api/oss/order
+ - Place a POST to: http://99.252.147.90:8078/api/oss/provisioning
  
  - Make the body: '{ns: {name: "Katacoda Portal",ref: "[[PACKAGE_URL]]",params: [{id: "host_name", value: "malyk.net"}]}}' http://localhost:8078/api/provisioning/order`{{copy}}
  
