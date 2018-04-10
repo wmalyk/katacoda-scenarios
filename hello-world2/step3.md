@@ -50,7 +50,7 @@ Next we will add details about each component. Rename and select Target Hosts (t
   
 - `QuickBooks (Accounting)`, Name = `Journal Data`{{copy}}, Target Host = N/A
   
-- `SalesForceCRM`, Name = `Customer Data`, Target Host = N/A
+- `SalesForceCRM`, Name = `Customer Data`{{copy}}, Target Host = N/A
 
 *These will be substituted into the various artifacts used by the system when deploying and operating this utility*
 
@@ -60,9 +60,28 @@ Next we will connect our components:
 
 - Scroll down the page to the `Service Chain` Canvas
 
-- Drag the components into an arrangement as found in the use-case PDF (http://99.252.147.90:8075/UseCase.pdf) - notice, you are effectively recreating the diagram to describe the implemention of the use-case.  
+- Drag the components into an arrangement as found in the use-case PDF (http://99.252.147.90:8078/UseCase.pdf) - notice, you are effectively recreating the diagram to describe the implemention of the use-case.  
 
 - Connect the components by double-clicking on a node, then double-clicking on the node you want it to connect to (if you make a mistake, just right-click the connection line to remove it).
+
+## Create the Service
+
+We could continue to add additional polices and configure other elements of the service (please do explore), but for this scenario we have created and linked the components for our service.
+
+We will now submit using the `Create Service` button at the bottom of the page.
+
+The service will now appear in the catalog.
+
+## Instantiating the Service
+
+Find the service in the catalog and click on it to launch its management interface.
+
+We want to place an order through the EnterpriseWeb API - we will use the console for this, return to your terminal window.
+
+Copy the following REST command to the terminal, and substitute the Package URL found inside the EnterpriseWeb portal for the variable [[PACKAGE_URL]]
+
+`curl -X POST -d '{test:"1"}' http://localhost"8088/api/ping`{{copy}}
+
 
 
 
