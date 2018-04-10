@@ -4,7 +4,19 @@
   "difficulty": "beginner",
   "time": "30 minutes",
   "details": {
-    "steps": [{
+    "assets": {
+      "host01": [
+        {
+        "file": "config",
+        "target": "~/.ssh/"
+      },
+      {
+        "file": "deploy-eweb.sh",
+        "target": "~/",
+        "chmod": "+x"
+      }
+   ] 
+  },"steps": [{
       "title": "Step 1 - Install and Launch the EnterpriseWeb Service Manager",
       "text": "step1.md"
     },
@@ -26,7 +38,7 @@
   },
   "environment": {
         "showdashboard": true,
-        "dashboards": [{ "name": "Service Manager", "port": 8078, "host": "host"}],
+        "dashboards": [{ "name": "Service Manager", "port": 8078, "host": "host01"}],
         "uilayout": "terminal-iframe",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
   },
