@@ -10,6 +10,10 @@
       {
         "file": "manifest.go",
         "target": "~/"
+      },
+        {
+        "file": "config",
+        "target": "~/.ssh/"
       }
 ] 
   },"steps": [{
