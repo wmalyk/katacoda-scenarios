@@ -94,7 +94,7 @@ or
 
  - Place a POST to: http://99.252.147.90:8078/api/oss/provisioning
  
- - Make the body: '{ns: {name: "Katacoda Portal",ref: "[[PACKAGE_URL]]",params: [{id: "host_name", value: "malyk.net"}]}}' http://localhost:8078/api/provisioning/order`{{copy}}
+ - Make the body: `{ns: {name: "Katacoda Portal",ref: "[[PACKAGE_URL]]",params: [{id: "host_name", value: "malyk.net"}]}}' http://localhost:8078/api/provisioning/order`{{copy}}
  
  - and substitute the Package URL found inside the EnterpriseWeb portal for the variable [[PACKAGE_URL]]
 
