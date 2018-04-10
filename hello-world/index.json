@@ -3,8 +3,17 @@
   "description": "Onboard your first application - without code!",
   "difficulty": "beginner",
   "time": "30 minutes",
+  "assets": {
+   "client": [
+      {
+        "file": "manifest.go",
+        "target": "~/"
+      }
+    ] 
+  },
   "details": {
     "steps": [{
+      "course-data": "startup.sh",
       "title": "Step 1 - Install and Launch the EnterpriseWeb Application Manager",
       "text": "step1.md"
     },
