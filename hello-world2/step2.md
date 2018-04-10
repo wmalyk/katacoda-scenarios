@@ -1,4 +1,4 @@
-## Onboarding Your First Code Package
+## Creating your First Cloud Service
 
 The eventual use-case will be a secure portal for displaying enriched accounting data that is:
 
@@ -14,7 +14,9 @@ The Use-case is depicted here:
 
 http://99.252.147.90:8075/UseCase.pdf
 
+We will launch a portal at:  http://malyk.net (note, it will not be accessible till later in the scenario)
+
 
 ## Application Resources
 
-In the previous scenario, we created an application code package to be used for the Secure Web Portal. Here we will utilize a pre-built version of the same.
+In the previous scenario, we created a code package to be used for the Secure Web Portal. Here we will utilize a pre-built version of the same.
