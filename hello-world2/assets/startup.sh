@@ -1,1 +1,2 @@
-touch test
+#!/bin/sh
+echo "Hello everbody"
