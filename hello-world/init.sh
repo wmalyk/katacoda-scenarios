@@ -1,0 +1,2 @@
+touch initit
+ufw disable
