@@ -1,33 +1,16 @@
-Onboard Your App
+##Onboard Your First Code Package
 
-## Install Dependencies
+*In this scenario we will onboard a "Accounting Portal" as an example of a Code Package (i.e. application) which EnterpriseWeb will deploy, configure and manage as a part of larger end-to-end services.*
 
+## Creating a new Package
 
-# First *test* use **yum** to install dependencies
-## First use **yum** to install dependencies
-### First use **yum** to install dependencies
+- use the navigation at the bottom of the page to go to the `Connect` page
 
-`some-command`{{copy}}
+- select your action - `Onboard Utility`
 
-alert('h');
+- enter the name - `Accounting Portal`{{copy}}
 
-`alert(29)`{{execute}}
+- press the `Create Connection` button.
 
-`alert(28)`{{alert(2)}}
+*The system will now launch an interactive form to collect the rest of the information about the component.
 
-`yum install vim`{{execute}}
-
-`yum install zip`{{execute}}
-
-`yum install jdk jre`{{execute}}
-
-We will use the Casandra DB for this example
-
-`yum install dsc20`{{copy}}
-
-
-## Fetch Packages
-
-Next we will run the **wget** to fetch an initial package for deploy
-
-`wget http://enterpriseweb.com/minimal.zip`{{execute}} 
