@@ -1,30 +1,13 @@
-Starting Enviornment
+## Boostrapping the Enviornment
 
-`download sources` 
+Start by connecting to EWeb and downloading the deployment package for the application manager
 
-http://99.252.147.90:8075/UseCase.pdf
+`/home/deploy-eweb.sh`{{execute}}
 
-http://99.252.147.90:8075/EWebScenario-AppManagerIntro-Resources.zip
+The password is `trogdor`{{copy}}
 
-try here: https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/. YES....
+*a local DB, index and copy of Tomcat will be deployed for the Application Manager*
 
-## Install Dependencies
+**You can now login to the Applicaton Manager: ** https://[[HOST_SUBDOMAIN]]-8076-[[KATACODA_HOST]].environments.katacoda.com
 
-First use **yum** to install dependencies
-
-`yum install vim`{{execute}}
-
-`yum install zip`{{execute}}
-
-`yum install jdk jre`{{execute}}
-
-We will use the Casandra DB for this example
-
-`yum install dsc20`{{execute}}
-
-
-## Fetch Packages
-
-Next we will run the **wget** to fetch an initial package for deploy
-
-`wget http://enterpriseweb.com/minimal.zip`{{execute}}
+*Or use the mirror here:* http://99.252.147.90:8075
