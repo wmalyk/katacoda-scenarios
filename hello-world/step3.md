@@ -1,8 +1,19 @@
-Application Manager Scenario
+Onboard Your App
 
 ## Install Dependencies
 
-First use **yum** to install dependencies
+
+#First *test* use **yum** to install dependencies
+##First use **yum** to install dependencies
+###First use **yum** to install dependencies
+
+`some-command`{{copy}}
+
+alert('h');
+
+`alert(29)`{{execute}}
+
+`alert(28)`{{alert(2)}}
 
 `yum install vim`{{execute}}
 
@@ -12,7 +23,7 @@ First use **yum** to install dependencies
 
 We will use the Casandra DB for this example
 
-`yum install dsc20`{{execute}}
+`yum install dsc20`{{copy}}
 
 
 ## Fetch Packages
