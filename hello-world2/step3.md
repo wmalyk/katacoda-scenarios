@@ -76,13 +76,29 @@ The service will now appear in the catalog.
 
 Find the service in the catalog and click on it to launch its management interface.
 
-We want to place an order through the EnterpriseWeb API - we will use the console for this, return to your terminal window.
+We want to place an order through the EnterpriseWeb API - we can do this via command line or a REST client:
 
-Copy the following REST command to the terminal, and substitute the Package URL found inside the EnterpriseWeb portal for the variable [[PACKAGE_URL]]
+- Via command line:
+
+ - we will use the console for this, return to your terminal window.
+
+ - Copy the following REST command to the terminal, and substitute the Package URL found inside the EnterpriseWeb portal for the variable [[PACKAGE_URL]]
 
 `curl -X POST -d '{ns: {name: "Katacoda Portal",ref: "[[PACKAGE_URL]]",params: [{id: "host_name", value: "malyk.net"}]}}' http://localhost:8078/api/provisioning/order`{{copy}}
 
-Execute that command to create the portal.
+ - Execute that command to create the portal.
+
+or
+
+- Via a REST client
+
+ - Place a POST to: http://99.252.147.90:8078/api/oss/order
+ 
+ - Make the body: '{ns: {name: "Katacoda Portal",ref: "[[PACKAGE_URL]]",params: [{id: "host_name", value: "malyk.net"}]}}' http://localhost:8078/api/provisioning/order`{{copy}}
+ 
+ - and substitute the Package URL found inside the EnterpriseWeb portal for the variable [[PACKAGE_URL]]
+
+ - submit
 
 ## Viewing the Instance
 
