@@ -1,22 +1,17 @@
-Getting Started
-
-## Install Dependencies
-
-First use **yum** to install dependencies
-
-`yum install vim`{{execute}}
-
-`yum install zip`{{execute}}
-
-`yum install jdk jre`{{execute}}
-
-We will use the Casandra DB for this example
-
-`yum install dsc20`{{execute}}
 
 
-## Fetch Packages
+## Boostrapping the Enviornment
 
-Next we will run the **wget** to fetch an initial package for deploy
+Start by connecting to EWeb and downloading the deployment package for the application manager
 
-`wget http://enterpriseweb.com/minimal.zip`{{execute}}
+`/root/deploy-eweb.sh`{{execute}}
+
+The password is `trogdor`{{copy}}
+
+*a local DB, index and copy of Tomcat will be deployed for the Application Manager*
+
+**You can now login to the Service Manager: ** https://[[HOST_SUBDOMAIN]]-8078-[[KATACODA_HOST]].environments.katacoda.com
+
+(*Or use the mirror here:* http://99.252.147.90:8078)
+
+**Credentials:** `developer@enterpriseweb.com`{{copy}} / `eweb2`{{copy}}
