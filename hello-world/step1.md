@@ -15,3 +15,7 @@ The password is `trogdor`{{copy}}
 (*Or use the mirror here:* http://99.252.147.90:8075)
 
 **Credentials:** `developer@enterpriseweb.com`{{copy}} / `eweb2`{{copy}}
+
+## Exploring the Tool
+
+Use the tabs along the bottom of the portal to click through the various features of this tool. We'll visit the different areas as we step through the scenario.
