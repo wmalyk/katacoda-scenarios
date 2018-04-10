@@ -1,22 +1,26 @@
-Application Manager Scenario
+## Onboarding Your First Code Package
 
-## Install Dependencies
+The eventual use-case will be a secure portal for displaying enriched accounting data that is:
 
-First use **yum** to install dependencies
+- secure
 
-`yum install vim`{{execute}}
+- has SLAs
 
-`yum install zip`{{execute}}
+- transforms between various web-based accounting APIs
 
-`yum install jdk jre`{{execute}}
+- applies a data-driven processing pipeline in realtime to enrich data showing up in the API.
 
-We will use the Casandra DB for this example
+The Use-case is depicted here:
 
-`yum install dsc20`{{execute}}
+http://99.252.147.90:8075/UseCase.pdf
 
 
-## Fetch Packages
+## Application Resources
 
-Next we will run the **wget** to fetch an initial package for deploy
+Please download the ZIP file from here:
 
-`wget http://enterpriseweb.com/minimal.zip`{{execute}} 
+http://99.252.147.90:8075/EWebScenario-AppManagerIntro-Resources.zip
+
+And unzip to a local directory.
+
+It contains the basic files which will be used in the next step to onboard your package.
