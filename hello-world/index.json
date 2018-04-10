@@ -11,7 +11,13 @@
         "file": "manifest.go",
         "target": "~/"
       }
-    ] 
+    ] ,
+      "host01": [
+      {
+        "file": "manifest.go",
+        "target": "~/"
+      }
+] 
   },"steps": [{
       "courseData": "startup.sh",
       "title": "Step 1 - Install and Launch the EnterpriseWeb Application Manager",
