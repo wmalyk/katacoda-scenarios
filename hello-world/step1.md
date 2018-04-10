@@ -10,7 +10,7 @@ The password is `trogdor`{{copy}}
 
 *a local DB, index and copy of Tomcat will be deployed for the Application Manager*
 
-**You can now login to the Applicaton Manager: ** https://[[HOST_SUBDOMAIN]]-8076-[[KATACODA_HOST]].environments.katacoda.com
+**You can now login to the Applicaton Manager: ** https://[[HOST_SUBDOMAIN]]-8075-[[KATACODA_HOST]].environments.katacoda.com
 
 (*Or use the mirror here:* http://99.252.147.90:8075)
 
