@@ -1,4 +1,20 @@
-Application Manager Scenario
+## Boostrapping the Enviornment
+
+Start by connecting to EWeb and downloading the deployment package for the application manager
+
+`/home/deploy-eweb.sh`{{execute}}
+
+The password is `trogdor`{{copy}}
+
+*a local DB, index and copy of Tomcat will be deployed for the Application Manager*
+
+**You can now login to the Applicaton Manager: ** https://[[HOST_SUBDOMAIN]]-8076-[[KATACODA_HOST]].environments.katacoda.com
+
+http://99.252.147.90:8075/UseCase.pdf
+
+http://99.252.147.90:8075/EWebScenario-AppManagerIntro-Resources.zip
+
+try here: https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/. YES....
 
 ## Install Dependencies
 
@@ -19,4 +35,19 @@ We will use the Casandra DB for this example
 
 Next we will run the **wget** to fetch an initial package for deploy
 
-`wget http://enterpriseweb.com/minimal.zip`{{execute}} 
+`wget http://enterpriseweb.com/minimal.zip`{{execute}}
+
+
+
+## Boostrapping the Enviornment
+
+Start by connecting to EWeb and downloading the deployment package for the application manager
+
+`/home/deploy-eweb.sh`{{execute}}
+
+The password is `trogdor`{{copy}}
+
+*a local DB, index and copy of Tomcat will be deployed for the Application Manager*
+
+**You can now login to the Applicaton Manager: ** https://[[HOST_SUBDOMAIN]]-8076-[[KATACODA_HOST]].environments.katacoda.com
+
