@@ -1,1 +1,2 @@
-echo 28
+#!/bin/sh
+echo "Hello everbody"
