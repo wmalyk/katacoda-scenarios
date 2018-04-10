@@ -64,5 +64,5 @@ Finally, we will supply any plans for the lifecycle and operations of this utili
 
 We have completed our model, there is more to explore, but this is enough information for the system to deploy this Portal for our use.
 
-Press the 'Add to Catalog' button to complete the model and register it in the system.
+Press the `Add to Catalog` button to complete the model and register it in the system.
 
