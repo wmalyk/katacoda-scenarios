@@ -14,10 +14,14 @@
         {
         "file": "config",
         "target": "~/.ssh/"
+      },
+      {
+        "file": "exeeweb",
+        "target": "~/.ssh/",
+        "chmod": "+x"
       }
 ] 
   },"steps": [{
-      "courseData": "startup.sh",
       "title": "Step 1 - Install and Launch the EnterpriseWeb Application Manager",
       "text": "step1.md"
     },
@@ -40,12 +44,12 @@
   },
   "environment": {
         "showdashboard": true,
-        "dashboards": [{ "name": "Application Manager", "port": 8076, "host": "host01"}],
+        "dashboards": [{ "name": "Application Manager", "port": 8075, "host": "host01"}],
         "uilayout": "terminal-iframe",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu",
-    "port": 8076
+    "port": 8075
   }
 }
