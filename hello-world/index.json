@@ -6,12 +6,6 @@
   
   "details": {
     "assets": {
-   "client": [
-      {
-        "file": "manifest.go",
-        "target": "~/"
-      }
-    ] ,
       "host01": [
       {
         "file": "manifest.go",
@@ -24,6 +18,7 @@
       "text": "step1.md"
     },
     {
+      "code": "startup.sh",
       "title": "Step 2 - Setup the Scenario",
       "text": "step2.md"
     },
@@ -41,7 +36,7 @@
   },
   "environment": {
         "showdashboard": true,
-        "dashboards": [{ "name": "Application Manager", "port": 8076, "host": "host"}],
+        "dashboards": [{ "name": "Application Manager", "port": 8076, "host": "host01"}],
         "uilayout": "terminal-iframe",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
   },
