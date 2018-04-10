@@ -22,7 +22,6 @@
       "text": "step1.md"
     },
     {
-      "code": "startup.sh",
       "title": "Step 2 - Setup the Scenario",
       "text": "step2.md"
     },
@@ -31,6 +30,7 @@
       "text": "step3.md"
     }],
     "intro": {
+      "courseData": "init.sh",
       "text": "intro.md",
       "credits": "EnterpriseWeb, 2018"
     },
