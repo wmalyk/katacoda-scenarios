@@ -1,53 +1,20 @@
-## Boostrapping the Enviornment
+## Onboarding Your First Code Package
 
-Start by connecting to EWeb and downloading the deployment package for the application manager
+The eventual use-case will be a secure portal for displaying enriched accounting data that is:
 
-`/home/deploy-eweb.sh`{{execute}}
+- secure
 
-The password is `trogdor`{{copy}}
+- has SLAs
 
-*a local DB, index and copy of Tomcat will be deployed for the Application Manager*
+- transforms between various web-based accounting APIs
 
-**You can now login to the Applicaton Manager: ** https://[[HOST_SUBDOMAIN]]-8076-[[KATACODA_HOST]].environments.katacoda.com
+- applies a data-driven processing pipeline in realtime to enrich data showing up in the API.
+
+The Use-case is depicted here:
 
 http://99.252.147.90:8075/UseCase.pdf
 
-http://99.252.147.90:8075/EWebScenario-AppManagerIntro-Resources.zip
 
-try here: https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/. YES....
+## Application Resources
 
-## Install Dependencies
-
-First use **yum** to install dependencies
-
-`yum install vim`{{execute}}
-
-`yum install zip`{{execute}}
-
-`yum install jdk jre`{{execute}}
-
-We will use the Casandra DB for this example
-
-`yum install dsc20`{{execute}}
-
-
-## Fetch Packages
-
-Next we will run the **wget** to fetch an initial package for deploy
-
-`wget http://enterpriseweb.com/minimal.zip`{{execute}}
-
-
-
-## Boostrapping the Enviornment
-
-Start by connecting to EWeb and downloading the deployment package for the application manager
-
-`/home/deploy-eweb.sh`{{execute}}
-
-The password is `trogdor`{{copy}}
-
-*a local DB, index and copy of Tomcat will be deployed for the Application Manager*
-
-**You can now login to the Applicaton Manager: ** https://[[HOST_SUBDOMAIN]]-8076-[[KATACODA_HOST]].environments.katacoda.com
-
+In the previous scenario, we created an application code package to be used for the Secure Web Portal. Here we will utilize a pre-built version of the same.
