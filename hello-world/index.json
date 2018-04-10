@@ -7,17 +7,13 @@
   "details": {
     "assets": {
       "host01": [
-      {
-        "file": "manifest.go",
-        "target": "~/"
-      },
         {
         "file": "config",
         "target": "~/.ssh/"
       },
       {
-        "file": "exeeweb",
-        "target": "~/.ssh/",
+        "file": "deploy-eweb.sh",
+        "target": "~/",
         "chmod": "+x"
       }
 ] 
