@@ -1,2 +1,2 @@
-touch initit
+touch /root/initit
 ufw disable
