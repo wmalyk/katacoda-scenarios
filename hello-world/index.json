@@ -1,20 +1,24 @@
 {
   "title": "EnterpriseWeb - Introduction to the Application Manager",
-  "description": "Install EnterpriseWeb on Linux and create your first application",
+  "description": "Onboard your first application - without code!",
   "difficulty": "beginner",
   "time": "30 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Install EnterpriseWeb via Linux CLI",
+      "title": "Step 1 - Install and Launch the EnterpriseWeb Application Manager",
       "text": "step1.md"
     },
     {
-      "title": "Step 2 - Scenario",
+      "title": "Step 2 - Setup the Scenario",
       "text": "step2.md"
+    },
+    {
+      "title": "Step 3 - Onboard your Application",
+      "text": "step3.md"
     }],
     "intro": {
       "text": "intro.md",
-      "credits": ""
+      "credits": "EnterpriseWeb, 2018"
     },
     "finish": {
       "text": "finish.md"
@@ -22,12 +26,12 @@
   },
   "environment": {
         "showdashboard": true,
-        "dashboards": [{ "name": "Application Manager", "port": 80, "host": "host02" }, { "name": "Service Manager", "port": 8076, "host": "host01"}, { "name": "PLS Manager", "port": 8080, "host": "client" }],
+        "dashboards": [{ "name": "Application Manager", "port": 8076, "host": "host"}],
         "uilayout": "terminal-iframe",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "kubernetes",
-    "port": 80
+    "imageid": "ubuntu",
+    "port": 8076
   }
 }
