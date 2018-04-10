@@ -80,38 +80,14 @@ We want to place an order through the EnterpriseWeb API - we will use the consol
 
 Copy the following REST command to the terminal, and substitute the Package URL found inside the EnterpriseWeb portal for the variable [[PACKAGE_URL]]
 
-`curl -X POST -d '{test:"1"}' http://localhost"8088/api/ping`{{copy}}
+`curl -X POST -d '{ns: {name: "Katacoda Portal",ref: "[[PACKAGE_URL]]",params: [{id: "host_name", value: "malyk.net"}]}}' http://localhost8078/api/provisioning/order`{{copy}}
 
+Execute that command to create the portal.
 
+## Viewing the Instance
 
+Back inside the EnterpriseWeb portal, click on the `Instances` tab, then click the `Go` button on the search. It will refresh the display including a reference to the instance that was created.
 
-- Notice there is already a Linux Image which will be used as a base. We will keep it, this is where our artifacts will eventually be deployed when a container or VM is created.
+If you click the link  http://malyk.net  you'll see the service in action.
 
-- Use the `Upload` button and upload each of the files from the EWebScenario-AppManagerIntro-Resources zip file you had downloaded earlier.
-
-- Tag the type of each as follows (you are mapping each provided attribute to a Type in EnterpriseWeb, it will do the rest).
-  
-  - `deploy.sh`, **type = `Script`** 
-  
-  - `custom.css`, **type = `Resource`** 
-  
-  - `resources.zip`, **type = `Resource`** 
-    
-  - `index.html`, **type = `Resource`** 
-
-## Completing the Package Model - Plans
-
-Finally, we will supply any plans for the lifecycle and operations of this utility.
-
-- Navigate to the `Plans` tab
-
-- We only want to specify a plan for the `Instantiate` operation at this time (you can proceed to include other operations and model them in EnterpriseWeb).
-
-- Use the `Provided By` drop-down - this allows to direct EnterpriseWeb on where this plan will come from. We will simply tell it to execute the script you uploaded earlier at this time - select `script: deploy.sh`.
-
-## Submit to the Catalog
-
-We have completed our model, there is more to explore, but this is enough information for the system to deploy this Portal for our use.
-
-Press the `Add to Catalog` button to complete the model and register it in the system.
-
+If you expand the row (use the small arrow on the left) you'll see the full details of the service which was deployed.
