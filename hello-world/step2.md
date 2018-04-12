@@ -14,14 +14,14 @@ The use-case will be a secure portal, a utility used for displaying enriched acc
 
 The Use-case is depicted here:
 
-http://99.252.147.90:8075/UseCase.pdf
+http://99.252.137.208:8075/UseCase.pdf
 
 
 ## Application Resources
 
 Please download the ZIP file from here:
 
-http://99.252.147.90:8075/EWebScenario-AppManagerIntro-Resources.zip
+http://99.252.137.208:8075/EWebScenario-AppManagerIntro-Resources.zip
 
 And unzip to a local directory.
 
