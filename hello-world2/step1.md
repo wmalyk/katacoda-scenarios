@@ -12,7 +12,7 @@ The password is `trogdor`{{copy}}
 
 **You can now login to the Service Manager: ** https://[[HOST_SUBDOMAIN]]-8078-[[KATACODA_HOST]].environments.katacoda.com
 
-(*Or use the mirror here:* http://99.252.147.90:8078)
+(*Or use the mirror here:* http://99.252.137.208:8078)
 
 **Credentials:** `developer@enterpriseweb.com`{{copy}} / `eweb2`{{copy}}
 
