@@ -40,12 +40,12 @@
   },
   "environment": {
         "showdashboard": true,
-        "dashboards": [{ "name": "Application Manager", "port": 8075, "host": "host01"}],
+        "dashboards": [{ "name": "Application Manager", "port": 8045, "host": "host01"}],
         "uilayout": "terminal-iframe",
         "uimessage1": "\u001b[32mYour Temporary EWeb Sandbox...\u001b[m\r"
   },
   "backend": {
     "imageid": "ubuntu",
-    "port": 8075
+    "port": 8045
   }
 }
