@@ -60,7 +60,7 @@ Next we will connect our components:
 
 - Scroll down the page to the `Service Chain` Canvas
 
-- Drag the components into an arrangement as found in the use-case PDF (http://99.252.147.90:8048/UseCase.pdf) - notice, you are effectively recreating the diagram to describe the implemention of the use-case.  
+- Drag the components into an arrangement as found in the use-case PDF (http://99.252.137.208:8048/UseCase.pdf) - notice, you are effectively recreating the diagram to describe the implemention of the use-case.  
 
 - Connect the components by double-clicking on a node, then double-clicking on the node you want it to connect to (if you make a mistake, just right-click the connection line to remove it).
 
@@ -78,7 +78,7 @@ Find the service in the catalog and click on it to launch its management interfa
 
 We want to place an order through the EnterpriseWeb API - we a REST client such as Postman (Chrome/Desktop) or RESTED (FireFox):
 
- - Place a POST to: http://99.252.147.90:8048/api/oss/provisioning
+ - Place a POST to: http://99.252.137.208:8048/api/oss/provisioning
 
  - No additional Headers or Authorization is required (disabled to keep the scenario simple)
  
