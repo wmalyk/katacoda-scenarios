@@ -1,20 +1,16 @@
-
-
 ## Boostrapping the Enviornment
 
-Start by connecting to EWeb and downloading the deployment package for the application manager
+Start by connecting to EWeb and setup an instance of the Service Manager for this scenario
 
-`/root/deploy-eweb.sh`{{execute}}
+`/root/initialize-eweb-scenario.sh`{{execute}}
 
 The password is `trogdor`{{copy}}
 
-*a local DB, index and copy of Tomcat will be deployed for the Service Manager*
+*a new index and copy of Tomcat will be allocated for the Service Manager*
 
-**You can now login to the Service Manager: ** https://[[HOST_SUBDOMAIN]]-8048-[[KATACODA_HOST]].environments.katacoda.com
+**You can now login to the Service Manager: ** http://99.252.137.208:8048 (please open in a new window)
 
-(*Or use the mirror here:* http://99.252.137.208:8048)
-
-**Credentials:** `developer@enterpriseweb.com`{{copy}} / `eweb2`{{copy}}
+**Credentials:** [as distributed in email]
 
 ## Exploring the Tool
 
