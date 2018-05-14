@@ -14,6 +14,11 @@
         "file": "deploy-eweb.sh",
         "target": "~/",
         "chmod": "+x"
+      },
+      {
+        "file": "initialize-eweb-scenario.sh",
+        "target": "~/",
+        "chmod": "+x"
       }
    ] 
   },"steps": [{
