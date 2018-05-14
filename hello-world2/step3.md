@@ -66,7 +66,7 @@ Next we will connect our components:
 
 ## Explore the Service
 
-In the created service you should now be able to do things like double click the connections in the service graph to drill into the various interfaces which are available, or expand the entries in the Components list to see configurable properties. These are the elements of control exposed by the author of each component, that are leveled in service composition. A next level of control would be to compose over-the-top policies and processes using the Task Manager module.
+In the created service you can now be able to do things like double click the connections in the service graph to drill into the various interfaces which are available, or expand the entries in the Components list to see configurable properties. These are controls exposed by the authors of the packages being composed, allowing higher-level programability during service composition. A next level of control would be to compose over-the-top policies and processes using the Task Manager module.
 
 ## Create the Service
 
