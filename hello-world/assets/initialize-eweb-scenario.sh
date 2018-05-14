@@ -22,4 +22,4 @@ echo "Completing Initialization..."
 
 sleep 1s
 
-echo "Application Manager ready on port 8045, and at: 99.252.137.208:8045"
+echo "Application Manager ready on port 8045, and at: http://99.252.137.208:8045"
