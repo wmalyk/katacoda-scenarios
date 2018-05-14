@@ -60,9 +60,13 @@ Next we will connect our components:
 
 - Scroll down the page to the `Service Chain` Canvas
 
-- Drag the components into an arrangement as found in the use-case PDF (http://99.252.137.208:8048/UseCase.pdf - slide 1) - notice, you are effectively recreating the diagram to describe the implemention of the use-case.  
+- Drag the components into an arrangement as found in the use-case PDF (http://99.252.137.208:8048/UseCase.pdf - slide 3) - notice, you are effectively recreating the diagram to describe the implemention of the use-case.  
 
 - Connect the components by double-clicking on a node, then double-clicking on the node you want it to connect to (if you make a mistake, just right-click the connection line to remove it).
+
+## Explore the Service
+
+In the created service you should now be able to do things like double click the connections in the service graph to drill into the various interfaces which are available, or expand the entries in the Components list to see configurable properties. These are the elements of control exposed by the author of each component, that are leveled in service composition. A next level of control would be to compose over-the-top policies and processes using the Task Manager module.
 
 ## Create the Service
 
