@@ -2,7 +2,7 @@
 
 ## Boostrapping the Enviornment
 
-Start by connecting to EWeb and setup an instance of the application manager for this scenario
+Start by connecting to EWeb and setup an instance of the Application Manager for this scenario
 
 `/root/initialize-eweb-scenario.sh`{{execute}}
 
