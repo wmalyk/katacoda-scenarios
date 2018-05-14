@@ -80,17 +80,17 @@ The service will now appear in the catalog.
 
 Find the service in the catalog and click on it to launch its management interface.
 
-We want to place an order through the EnterpriseWeb API - we a REST client such as Postman (Chrome/Desktop) or RESTED (FireFox):
+We want to place an order through the EnterpriseWeb API - we will use a REST client such as Postman (Chrome/Desktop) or RESTED (FireFox), or use can use CURL on the command line:
 
- - Place a POST to: http://99.252.137.208:8048/api/oss/provisioning
+ - Place a POST to: `http://99.252.137.208:8048/api/oss/provisioning`{{copy}}
 
  - No additional Headers or Authorization is required (disabled to keep the scenario simple)
  
  - POST a raw JSON body
 
- - Make the body: `{ns: {name: "Katacoda Portal",ref: "[[PACKAGE_URL]]",params: [{id: "host_name", value: "malyk.net"}]}}' http://localhost:8078/api/provisioning/order`{{copy}}
+ - Make the body: `{ns: {name: "Katacoda Portal",ref: "[[PACKAGE_URL]]",params: [{id: "host_name", value: "malyk.net"}]}}`{{copy}}
  
- - and substitute the Package URL found inside the EnterpriseWeb portal for the variable [[PACKAGE_URL]]
+ - and substitute the Package URL found inside the EnterpriseWeb portal for the variable [[PACKAGE_URL]] (this will be displayed on the "Profile Tab", and look like: http://localhost:8045/fil/system/platform/ents/Package/objects/ad3244cb-04f0-4c70-bc28-41cdba328c7a, be sure to use the one for the new service you just created).
 
  - submit
 
