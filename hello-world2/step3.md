@@ -78,9 +78,9 @@ The service will now appear in the catalog.
 
 ## Instantiating the Service
 
-Find the service in the catalog and click on it to launch its management interface.
+Find the service ("Secure Accounting Portal") in the catalog and click on it to launch a management interface.
 
-We want to place an order through the EnterpriseWeb API - we will use a REST client such as Postman (Chrome/Desktop) or RESTED (FireFox), or use can use CURL on the command line:
+We want to place an order through the EnterpriseWeb API - we will use a REST client such as Postman (Chrome/Desktop) or RESTED (FireFox), or we could use CURL on the command line:
 
  - Place a POST to: `http://99.252.137.208:8048/api/oss/provisioning`{{copy}}
 
