@@ -4,7 +4,7 @@ ssh -fN -4 -p 13 wmalyk@99.252.137.208 -L 8045:localhost:8045
 
 echo "Deploying Module..."
 
-curl -i -H "Accept: application/json" -H "Content-Type: application/json" http://99.252.137.208:8045/api/initScenario1
+curl -H "Accept: application/json" -H "Content-Type: application/json" http://99.252.137.208:8045/api/initScenario1
 
 sleep 10s
 
