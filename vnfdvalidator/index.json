@@ -1,6 +1,6 @@
 {
-  "title": "EWeb - Intro to the Application Manager",
-  "description": "Onboard your first application - without code!",
+  "title": "Intro to the VNFD Validator",
+  "description": "Realtime validation of Virtual Network Function Descriptor per ETSI-based standards.",
   "difficulty": "beginner",
   "time": "30 minutes", 
   
@@ -23,7 +23,7 @@
       }
 ] 
   },"steps": [{
-      "title": "Step 1 - Install and Launch the EnterpriseWeb Application Manager",
+      "title": "Step 1 - Initialize the EnterpriseWeb VNFD Validator",
       "text": "step1.md"
     },
     {
@@ -31,7 +31,7 @@
       "text": "step2.md"
     },
     {
-      "title": "Step 3 - Onboard your Application",
+      "title": "Step 3 - Validate your Descriptor",
       "text": "step3.md"
     }],
     "intro": {
@@ -45,12 +45,12 @@
   },
   "environment": {
         "showdashboard": true,
-        "dashboards": [{ "name": "Application Manager", "port": 8045, "host": "host01"}],
+        "dashboards": [{ "name": "Validator", "port": 8073, "host": "host01"}],
         "uilayout": "terminal-iframe",
         "uimessage1": "\u001b[32mYour Temporary EWeb Sandbox...\u001b[m\r"
   },
   "backend": {
     "imageid": "ubuntu",
-    "port": 8045
+    "port": 8073
   }
 }
