@@ -1,0 +1,56 @@
+{
+  "title": "EWeb - Intro to the Application Manager",
+  "description": "Onboard your first application - without code!",
+  "difficulty": "beginner",
+  "time": "30 minutes", 
+  
+  "details": {
+    "assets": {
+      "host01": [
+        {
+        "file": "config",
+        "target": "~/.ssh/"
+      },
+      {
+        "file": "deploy-eweb.sh",
+        "target": "~/",
+        "chmod": "+x"
+      },
+      {
+        "file": "initialize-eweb-scenario.sh",
+        "target": "~/",
+        "chmod": "+x"
+      }
+] 
+  },"steps": [{
+      "title": "Step 1 - Install and Launch the EnterpriseWeb Application Manager",
+      "text": "step1.md"
+    },
+    {
+      "title": "Step 2 - Setup the Scenario",
+      "text": "step2.md"
+    },
+    {
+      "title": "Step 3 - Onboard your Application",
+      "text": "step3.md"
+    }],
+    "intro": {
+      "courseData": "init.sh",
+      "text": "intro.md",
+      "credits": "EnterpriseWeb, 2018"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+        "showdashboard": true,
+        "dashboards": [{ "name": "Application Manager", "port": 8045, "host": "host01"}],
+        "uilayout": "terminal-iframe",
+        "uimessage1": "\u001b[32mYour Temporary EWeb Sandbox...\u001b[m\r"
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "port": 8045
+  }
+}
