@@ -12,4 +12,4 @@ The password is `trogdor`{{copy}}
 
 **You can now login to the Validtor: ** http://35.188.242.221:8073 (please open in a new window)
 
-**Credentials:** user@enterpriseweb.com / eweb2
+**Credentials:** `user@enterpriseweb.com`{{copy}} / `eweb2`{{copy}}
