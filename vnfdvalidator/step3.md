@@ -9,7 +9,7 @@
 
 ## 2 - Select current published version or draft
 
-- use the dropdown to select a particular version or draft (or simply leave it at [Current Version and Drafts] for it to apply all applicable specifications.
+- use the `dropdown` to select a particular version or draft (or simply leave as is to apply all applicable specifications).
 
 ## 3 - Get validation report
 
