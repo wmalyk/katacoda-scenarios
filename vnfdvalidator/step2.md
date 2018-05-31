@@ -1,6 +1,6 @@
 ## Validating a VNF Descriptors
 
-The VNFD Validator works with either TOSCA (per ETSI SOL1) or YANG (JSON per ETSI Sol7) formats.
+The VNFD Validator works with either TOSCA (per ETSI SOL1) or YANG (JSON per ETSI Sol6) formats.
 
 A sample YANG file can be found here: 
 
