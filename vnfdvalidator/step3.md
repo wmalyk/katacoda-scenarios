@@ -9,7 +9,7 @@
 
 ## 2 - Select current published version or draft
 
-- use the `dropdown` to select a particular version or draft (or simply leave as is to apply all applicable specifications).
+- use the `dropdown` to select a particular version or draft (or leave as is to apply all applicable specifications).
 
 ## 3 - Get validation report
 
@@ -17,8 +17,8 @@
 
 - you will be navigated back to the `VNFD Catalog` tab, where you will see your new descriptor in the list
 
-- click on your entry in the catalog to explore the results of your validation
-
-- use the `Content` tab if you want to upload a new version
+- click on your entry in the catalog to explore the results
 
 - use the `Validation` tab to see a list of any errors
+
+- use the `Content` tab to view the existing descriptor or upload a new version
