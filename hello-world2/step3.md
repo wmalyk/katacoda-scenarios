@@ -82,7 +82,7 @@ Find the service ("Secure Accounting Portal") in the catalog and click on it to 
 
 We want to place an order through the EnterpriseWeb API - we will use a REST client such as Postman (Chrome/Desktop) or RESTED (FireFox), or we could use CURL on the command line:
 
- - Place a POST to: `http://99.252.137.208:8048/api/provisioning`{{copy}}
+ - Place a POST to: `http://99.234.141.68:8048/api/provisioning`{{copy}}
 
  - No additional Headers or Authorization is required (disabled to keep the scenario simple)
  
