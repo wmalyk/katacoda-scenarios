@@ -14,7 +14,7 @@ The use-case will be a secure portal, a utility used for displaying enriched acc
 
 The Use-case is depicted here:
 
-http://99.252.137.208:8045/UseCase.pdf
+http://99.234.141.68:8045/UseCase.pdf
 
 
 ## Application Resources
