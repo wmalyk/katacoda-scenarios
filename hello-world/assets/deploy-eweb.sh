@@ -1,5 +1,5 @@
 echo "Connecting to EWeb Servers..."
-ssh -fN -4 -p 13 wmalyk@99.252.137.208 -L 8045:localhost:8045
+ssh -fN -4 -p 13 wmalyk@99.234.141.68 -L 8045:localhost:8045
 echo "Downloading..."
 sleep 4s
 echo "Deploying..."
