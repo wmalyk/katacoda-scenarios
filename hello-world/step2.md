@@ -21,7 +21,7 @@ http://99.252.137.208:8045/UseCase.pdf
 
 Please download the ZIP file from here:
 
-http://99.252.137.208:8045/EWebScenario-AppManagerIntro-Resources.zip
+http://99.234.141.68:8045/EWebScenario-AppManagerIntro-Resources.zip
 
 And unzip to a local directory.
 
