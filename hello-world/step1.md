@@ -10,7 +10,7 @@ The password is `trogdor`{{copy}}
 
 *a new index and copy of Tomcat will be allocated for the Application Manager*
 
-**You can now login to the Applicaton Manager: ** http://99.252.137.208:8045 (please open in a new window)
+**You can now login to the Applicaton Manager: ** http://99.234.141.68:8045 (please open in a new window)
 
 **Credentials:** [as distributed in email]
 
